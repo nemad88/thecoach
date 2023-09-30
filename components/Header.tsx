@@ -1,15 +1,13 @@
 import React, { HtmlHTMLAttributes } from "react";
 import styled from "@emotion/styled";
-// import styled from "styled-components";
+
 import Email from "./icons/Email";
 import Facebook from "./icons/Facebook";
 import Instagram from "./icons/Instagram";
 import Navbar from "./Navbar";
 import Button from "./Button";
 
-interface HeaderProps extends HtmlHTMLAttributes<HTMLDivElement> {
-  // Itt további saját prop-okat definiálhatsz, ha szükségesek.
-}
+interface HeaderProps extends HtmlHTMLAttributes<HTMLDivElement> {}
 
 export default function Header({ ...props }: HeaderProps): JSX.Element {
   return (
